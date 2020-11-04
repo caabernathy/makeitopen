@@ -1,0 +1,42 @@
+{
+  "version-2017.1.0.0/docs": [
+    {
+      "type": "category",
+      "label": "Building the F8 App",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-1-planning"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-2-design"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-3-data"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-4-testing"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-A1-local-setup"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-A2-relay"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-A3-windows"
+        },
+        {
+          "type": "doc",
+          "id": "version-2017.1.0.0/1-A4-translations"
+        }
+      ]
+    }
+  ]
+}

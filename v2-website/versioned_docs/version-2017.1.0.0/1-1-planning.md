@@ -2,6 +2,7 @@
 id: 1-1-planning
 title: Planning The App
 sidebar_label: "Part 1: Planning The App"
+original_id: 1-1-planning
 permalink: "/tutorials/building-the-f8-app/planning/"
 ---
 

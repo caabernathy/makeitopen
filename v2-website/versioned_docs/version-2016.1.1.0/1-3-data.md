@@ -2,6 +2,7 @@
 id: 1-3-data
 title: Integrating Data with React Native
 sidebar_label: "Part 3: Integrating Data with React Native"
+original_id: 1-3-data
 ---
 
 *This is a series of tutorials designed to introduce React Native and its Open Source ecosystem in plain English, written alongside the building of the F8 2016 app for [Android](https://play.google.com/store/apps/details?id=com.facebook.f8) and [iOS](https://itunes.apple.com/us/app/f8/id853467066).*

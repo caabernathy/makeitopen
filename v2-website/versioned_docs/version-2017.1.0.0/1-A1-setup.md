@@ -2,6 +2,7 @@
 id: 1-A1-local-setup
 title: Running the App Locally
 sidebar_label: "Appendix I: Running the App Locally"
+original_id: 1-A1-local-setup
 ---
 
 While you can run the F8 App on your mobile device by downloading it from the [iOS App Store](https://itunes.apple.com/us/app/f8/id853467066) or the [Google Play Store](https://play.google.com/store/apps/details?id=com.facebook.f8), you might want to run it locally while reading these tutorials.
@@ -51,18 +52,12 @@ _Make sure the files are in `~/Documents/FacebookSDK/`_
    ```
 
 2. Check that the server is working correctly.
-   
+
    _Go to the Parse Dashboard ([http://localhost:4040/apps/F8/](http://localhost:4040/apps/F8/)),
    and it should look like this:_
 
-   <img src="/images/parse-dashboard@2x.png" width="800">
-   
-   Login Credentials
-   
-   **Username**: admin
-   
-   **Password**: admin
-   
+   <img src="/images/parse-dashboard@2x.png" width="800" />
+
 ## Run the App
 
 ### All platforms

@@ -2,6 +2,7 @@
 id: 1-4-testing
 title: Testing a React Native App
 sidebar_label: "Part 4: Testing a React Native App"
+original_id: 1-4-testing
 ---
 
 *This is a series of tutorials designed to introduce React Native and its Open Source ecosystem in plain English, written alongside the building of the F8 2016 app for [Android](https://play.google.com/store/apps/details?id=com.facebook.f8) and [iOS](https://itunes.apple.com/us/app/f8/id853467066).*
@@ -149,7 +150,7 @@ The Flow integration is what we're specifically interested in though. Here we ca
 As we said before, we have defined the shape that the Reducer function must return, and with Nuclide, we can see our mistakes happening in real-time:
 
 <video width="1174" height="1002" autoplay loop>
-  <source src="/videos/flow.mp4" type="video/mp4">
+  <source src="/videos/flow.mp4" type="video/mp4" />
   Your browser does not support the HTML5 video tag.
 </video>
 
@@ -255,5 +256,3 @@ Here's what's going on:
 3. We're applying the middleware using Redux's [`applyMiddleware()` function](http://redux.js.org/docs/api/applyMiddleware.html). This is all we need to do in order to see those logging entries show up in the console.
 
 4. The debug flag adds a copy of the current Store object to the [Window object](http://www.w3schools.com/jsref/obj_window.asp). This just saves having to add it to the Window everytime, which in turn makes it easier to browse directly via the console.
-
-

@@ -10,3 +10,6 @@ _config_*.yml
 Gemfile.lock
 *.psd
 _docs/updates.md
+
+.DS_Store
+node_modules/

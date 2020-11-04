@@ -1,0 +1,104 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+@media only screen and (min-width: 1024px) {
+  .footerContainer {
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .footerContainer .footerSection {
+    box-sizing: border-box;
+    flex: 1 1 25%;
+    min-width: 275px;
+    padding: 0px 20px;
+  }
+
+  .footerContainer .rightAlign {
+    margin-left: auto;
+    padding-left: 60px;
+    text-align: right;
+  }
+
+  .footerContainer .fbOpenSource {
+    max-width: 25%;
+  }
+}
+
+.footerContainer {
+  color: #dc6f62;
+  padding: 0 4vw;
+  text-align: left;
+  border-top: 1px solid #dc6f62;
+  padding: 0;
+  margin: 0 0px;
+  padding: 10px 0;
+  max-width: 100%;
+}
+
+.footerSection {
+  font-size: 14px;
+  padding: 0px;
+}
+
+.footerSection a {
+  border: 0;
+  color: inherit;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+.footerLink {
+  padding-right: 20px;
+}
+
+.footerLink:hover,
+.footerLink:focus {
+  background: none;
+  color: rgba(220, 111, 98, 0.7);
+}
+
+.fbOpenSource {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fbOpenSource svg {
+  flex: 0 0 31px;
+  height: 30px;
+  margin-right: 10px;
+  width: 31px;
+}
+
+.fbOpenSource svg path {
+  fill: #dc6f62;
+}
+
+.fbOpenSource svg .middleRing {
+  opacity: 0.7;
+}
+
+.fbOpenSource svg .innerRing {
+  opacity: 0.45;
+}
+
+.fbOpenSource h2 {
+  display: block;
+  font-weight: 900;
+  line-height: 1em;
+  font-size: 100%;
+}
+
+.rightAlign {
+  margin-left: auto;
+  padding-left: 60px;
+  text-align: right;
+}

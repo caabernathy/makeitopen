@@ -2,6 +2,7 @@
 id: 1-A2-relay
 title: Using Relay and GraphQL
 sidebar_label: "Appendix II: Using Relay and GraphQL"
+original_id: 1-A2-relay
 ---
 
 When we originally planned the app [we discussed the choice of data layer](../2016.1.1.0/1-1-planning.html#data-access-with-react-native) and compared [Redux](https://github.com/rackt/redux) (which was eventually used) with an alternative Facebook Open Source project called [Relay](https://facebook.github.io/relay/).

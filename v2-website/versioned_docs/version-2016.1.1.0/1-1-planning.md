@@ -3,6 +3,7 @@ id: 1-1-planning
 title: Planning The App
 sidebar_label: "Part 1: Planning The App"
 permalink: "/tutorials/building-the-f8-app/planning/"
+original_id: 1-1-planning
 ---
 
 *This is a series of tutorials designed to introduce React Native and its Open Source ecosystem in plain English, written alongside the building of the F8 2016 app for [Android](https://play.google.com/store/apps/details?id=com.facebook.f8) and [iOS](https://itunes.apple.com/us/app/f8/id853467066).*
@@ -25,13 +26,13 @@ There were other reasons for using Parse - much of the content displayed within 
 
 Given all this, Parse became the best choice for this app's data backend. In light of the [Parse Cloud Code shutdown announcement](http://blog.parse.com/announcements/moving-on/), we decided to transition to use the newly open-sourced [Parse Server](http://blog.parse.com/announcements/introducing-parse-server-and-the-database-migration-tool/) and [Parse Dashboard](https://github.com/ParsePlatform/parse-dashboard) projects.
 
-React Native doesn't need to be tightly connected to a data layer. For example, development of the UI and app logic in a React Native app can be done with simple mock data. This means that as long as the structure of the data remains the same, you can swap the data source of a fully built app with minimal amounts of adjustment. For the F8 App this meant we could very easily transition from Parse Cloud Code to the open source Parse Server after the app had already been developed. We'll cover this more in the [data tutorial](1-3-data.md).
+As React Native doesn't need to be tightly connected to a data layer, for example development of the UI and app logic in a React Native app can be done with simple mock data. This means that as long as the structure of the data remains the same, you can swap the data source of a fully built app with minimal amounts of adjustment. For the F8 App this meant we could very easily transition from Parse Cloud Code to the open source Parse Server after the app had already been developed. We'll cover this more in the [data tutorial](1-3-data.md).
 
 ### Data Access with React Native
 
-To get Parse and React Native working together, there is an existing [Parse + React package](https://github.com/ParsePlatform/ParseReact) that provides the necessary binding tools, but there was a problem - due to the vagaries of conference wi-fi and connectivity, the F8 app must be able to work offline. Since Parse + React did not support offline syncing of data when the F8 app was being built, we had to construct our own offline support.
+To get Parse and React Native working together, there is an existing [Parse + React package](https://github.com/ParsePlatform/ParseReact) that provides the necessary binding tools, but there was a problem - due to the vagaries of conference wi-fi and connectivity, the F8 app must be able to work offline. Since Parse + React did not support offline syncing of data when the F8 app was being built, so we had to construct our own offline support.
 
-There was another factor in choosing our data access layer - team size. For example, Relay, a JavaScript framework for accessing data, would be more appropriate for a larger team working at scale, but the F8 app was being developed by one person, with a few others in support for design. This had a big influence on the type of data access method we chose in the F8 app.
+There was another factor in making this decision - team size. Relay, for example, would be more appropriate for a larger team working at scale, but the F8 app was being developed by one person, with a few others in support for design. This has a big influence on the type of data access method you use in an app.
 
 What about [GraphQL](http://graphql.org/) and [Relay](https://facebook.github.io/relay/)? While they work extremely well with React Native, Relay did not ([at the time](https://github.com/facebook/relay/wiki/Roadmap#in-progress)) have built-in support for offline usage, and GraphQL wasn't supported out of the box by Parse. Building the app using them would have required building APIs for GraphQL-Parse, and hacking together an offline storage method for Relay.
 

@@ -2,6 +2,7 @@
 id: 1-A4-translations
 title: Makeitopen in Other Languages
 sidebar_label: "Appendix IV: Makeitopen in Other Languages"
+original_id: 1-A4-translations
 ---
 
 We hope you find Make It Open useful, and thanks to our great community, we're able to bring you community translations:

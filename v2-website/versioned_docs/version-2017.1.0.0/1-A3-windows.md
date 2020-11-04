@@ -2,6 +2,7 @@
 id: 1-A3-windows
 title: Porting the F8 App To Windows
 sidebar_label: "Appendix III: Porting the F8 App To Windows"
+original_id: 1-A3-windows
 ---
 
 At F8 2016, Facebook announced that Microsoft is bringing [React Native to the Windows ecosystem](http://microsoft.github.io/code-push/articles/ReactNativeWindows.html), giving developers the potential to build React Native on Windows devices such as PCs, phones, and Xboxes.
