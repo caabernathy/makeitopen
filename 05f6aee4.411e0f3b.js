@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{58:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"F8 2017 App Open Source","permalink":"/makeitopen/blog/2017/12/04/blog-post-f82017-open-source"}]}')}}]);
