@@ -1,7 +1,7 @@
 ---
 id: 1-A1-local-setup
 title: Running the App Locally
-sidebar_label: Appendix I: Running the App Locally
+sidebar_label: "Appendix I: Running the App Locally"
 ---
 
 While you can run the F8 App on your mobile device by downloading it from the [iOS App Store](https://itunes.apple.com/us/app/f8/id853467066) or the [Google Play Store](https://play.google.com/store/apps/details?id=com.facebook.f8), you might want to run it locally while reading these tutorials.

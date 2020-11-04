@@ -1,9 +1,9 @@
 ---
-id: version-2017.1.0.0-1-1-planning
+id: 1-1-planning
 title: Planning The App
-sidebar_label: Part 1: Planning The App
+sidebar_label: "Part 1: Planning The App"
 original_id: 1-1-planning
-permalink: /tutorials/building-the-f8-app/planning/
+permalink: "/tutorials/building-the-f8-app/planning/"
 ---
 
 *This is a series of tutorials designed to introduce React Native and its Open Source ecosystem in plain English, written alongside the building of the F8 2016 app for [Android](https://play.google.com/store/apps/details?id=com.facebook.f8) and [iOS](https://itunes.apple.com/us/app/f8/id853467066).*

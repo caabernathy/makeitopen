@@ -1,0 +1,228 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+a {
+  /* color: #393939; */
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  background: #dc6f62;
+  color: white;
+}
+
+p a {
+  border-bottom: 1px solid rgba(220, 111, 98, 0.7)
+}
+
+.heroBanner {
+  padding: 2.5rem 0;
+  background: #dc6f62 no-repeat center center;
+  background-size: contain;
+}
+
+.heroBannerFade {
+    background-image: linear-gradient(
+        to bottom, rgba(220, 111, 98, 0.7) 0%, rgba(220, 98, 127, 0.7) 100%
+    );
+}
+
+.heroBannerLogo {
+  max-width: 170px;
+  max-height: 170px;
+}
+
+.heroBannerTagline {
+  text-shadow: 0px 0px 10px #87291e;
+  border: 0;
+  color: inherit;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.startReading {
+  font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.startReadingLight {
+  border: 1px solid white;
+}
+
+.startReadingDark {
+  border: 1px solid black;
+}
+
+.introContent {
+  padding-top: 20px;
+}
+
+.blockContent {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.featureImage {
+  margin: 0 auto;
+}
+
+.lightBackground {
+  background-color: #f7f7f7;
+  color: rgb(31, 34, 39);
+}
+
+.featuredImage {
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+
+.featuredImage a:hover {
+  text-decoration: none;
+  background: transparent;
+}
+
+.featuredImage a img {
+  vertical-align: text-top;
+  width: 400px;
+}
+
+.blockContent h4 a {
+  display: block;
+  font-size: 150%;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.2em;
+  border-bottom: 1px solid rgba(220, 111, 98, 0.7);
+}
+
+.blockContent h4 a:hover,
+.blockContent h4 a:focus {
+  color: #fff;
+}
+
+.blockContent h4 span {
+  display: block;
+  font-size: 120%;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.blockContent h4 a,
+.blockContent h4 span {
+  color: black;
+}
+
+.blockContentDark h4 a,
+.blockContentDark h4 span {
+  color: white;
+}
+
+.blockContent p a {
+  border-bottom: 1px solid rgba(220, 111, 98, 0.7);
+}
+
+.blockContent hr {
+  height: 0px;
+  border: 0px;
+  border-top: 1px solid #dc6f62;
+}
+
+.tutorialContent p {
+  padding: 3px;
+}
+
+.tutorialContent p a {
+  font-size: 85%;
+  color: #dc6f62 ;
+  font-weight: 800;
+}
+
+.tutorialContent p a:hover,
+.tutorialContent p a:focus {
+  color: #fff;
+}
+
+.appendixContent h4 span {
+  font-size: 90%;
+}
+
+.appendixContent h4 a {
+  font-size: 100%;
+  border-bottom: none;
+}
+
+.featureContent {
+  background: #dc6f62;
+  box-sizing: border-box;
+  color: white;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.featureContent .features {
+    display: block;
+    margin: -20px 0px 0;
+    max-width: 100%;
+}
+
+.featureContent .features .featuredGroup {
+  box-sizing: border-box;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.featureContent .features .featuredGroup h3 {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+}
+
+.featureContent h2 {
+  border-bottom: 1px solid white;
+}
+
+.featureContent .features .featuredGroup ul {
+  padding: 0;
+}
+
+.featureContent .features .featuredGroup li {
+  list-style: none;
+  padding: 0;
+}
+
+.featureContent .features .featuredGroup li a {
+  border: none;
+  color: white;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.featureContent .features {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -20px -20px 0;
+  max-width: 100%;
+}
+
+.featureContent .features .featuredGroup {
+  box-sizing: border-box;
+  flex: 1 1 25%;
+  max-width: 25%;
+  min-width: 275px;
+  padding: 20px;
+}

@@ -1,7 +1,7 @@
 ---
-id: version-2016.1.1.0-1-A2-relay
+id: 1-A2-relay
 title: Using Relay and GraphQL
-sidebar_label: Appendix II: Using Relay and GraphQL
+sidebar_label: "Appendix II: Using Relay and GraphQL"
 original_id: 1-A2-relay
 ---
 

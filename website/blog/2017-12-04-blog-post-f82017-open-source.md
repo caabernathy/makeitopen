@@ -2,7 +2,7 @@
 title: F8 2017 App Open Source
 author: Johnston Jiaa
 authorTitle: Software Engineer at Facebook
-authorURL: https://github.com/oclbdk
+authorURL: "https://github.com/oclbdk"
 authorFBID: 752670135
 authorTwitter: oclbdk
 category: announcements

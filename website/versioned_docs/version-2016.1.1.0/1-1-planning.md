@@ -1,8 +1,8 @@
 ---
-id: version-2016.1.1.0-1-1-planning
+id: 1-1-planning
 title: Planning The App
-sidebar_label: Part 1: Planning The App
-permalink: /tutorials/building-the-f8-app/planning/
+sidebar_label: "Part 1: Planning The App"
+permalink: "/tutorials/building-the-f8-app/planning/"
 original_id: 1-1-planning
 ---
 

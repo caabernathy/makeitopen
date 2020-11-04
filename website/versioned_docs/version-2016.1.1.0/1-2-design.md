@@ -1,7 +1,7 @@
 ---
-id: version-2016.1.1.0-1-2-design
+id: 1-2-design
 title: Designing an App for Multiple Platforms
-sidebar_label: Part 2: Designing an App for Multiple Platforms
+sidebar_label: "Part 2: Designing an App for Multiple Platforms"
 original_id: 1-2-design
 ---
 

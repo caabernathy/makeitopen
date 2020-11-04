@@ -1,7 +1,7 @@
 ---
-id: version-2017.1.0.0-1-A1-local-setup
+id: 1-A1-local-setup
 title: Running the App Locally
-sidebar_label: Appendix I: Running the App Locally
+sidebar_label: "Appendix I: Running the App Locally"
 original_id: 1-A1-local-setup
 ---
 
@@ -56,7 +56,7 @@ _Make sure the files are in `~/Documents/FacebookSDK/`_
    _Go to the Parse Dashboard ([http://localhost:4040/apps/F8/](http://localhost:4040/apps/F8/)),
    and it should look like this:_
 
-   <img src="/images/parse-dashboard@2x.png" width="800">
+   <img src="/images/parse-dashboard@2x.png" width="800" />
 
 ## Run the App
 

@@ -1,7 +1,7 @@
 ---
 id: 1-4-testing
 title: Testing a React Native App
-sidebar_label: Part 4: Testing a React Native App
+sidebar_label: "Part 4: Testing a React Native App"
 ---
 
 *This is a series of tutorials designed to introduce React Native and its Open Source ecosystem in plain English, written alongside the building of the F8 2016 app for [Android](https://play.google.com/store/apps/details?id=com.facebook.f8) and [iOS](https://itunes.apple.com/us/app/f8/id853467066).*

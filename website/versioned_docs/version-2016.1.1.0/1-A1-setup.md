@@ -1,7 +1,7 @@
 ---
-id: version-2016.1.1.0-1-A1-local-setup
+id: 1-A1-local-setup
 title: Running the App Locally
-sidebar_label: Appendix I: Running the App Locally
+sidebar_label: "Appendix I: Running the App Locally"
 original_id: 1-A1-local-setup
 ---
 
