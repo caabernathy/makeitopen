@@ -1,8 +1,9 @@
 module.exports={
   "title": "makeitopen.com",
   "tagline": "Building the F8 App",
-  "url": "http://makeitopen.com",
-  "baseUrl": "/",
+  "url": "https://caabernathy.github.io",
+  "baseUrl": "/makeitopen/",
+  "organizationName": 'caabernathy',
   "projectName": "makeitopen",
   "favicon": "images/favicon_junction.png",
   "customFields": {
